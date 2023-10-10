@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".AboutGame">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:padding="20dp"
+        android:background="@color/black"
+        android:layout_height="match_parent">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:fontFamily="@font/shojumaru"
+                    android:gravity="center"
+                    android:text="How to Play ??"
+                    android:textColor="@color/white"
+                    android:textSize="34sp" />
+
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:gravity="center"
+                    android:text="Creepy Crosses is classic two-player TIC-TAC-TOE game played on a 3x3 grid. Players take turns marking a square with their symbol with the goal of getting three of their symbols in a row, either horizontally, vertically, or diagonally. The game starts with an empty grid, and players alternate turns.
+The first player chooses Halloween Pumpkin,and the second player chooses Halloween Hat. The game continues until one player successfully aligns three of their symbols in a row, or the grid is filled, resulting in a draw. Players must strategize to block their opponent's moves while aiming to create their own winning sequences."
+                    android:textColor="@color/white"
+                    android:textSize="16sp"/>
+
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Possible ways to win..."
+                    android:textColor="@color/white"
+                    android:textSize="29sp"
+                    android:layout_margin="10dp"/>
+
+
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/ways" />
+
+
+            </LinearLayout>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+</layout>
